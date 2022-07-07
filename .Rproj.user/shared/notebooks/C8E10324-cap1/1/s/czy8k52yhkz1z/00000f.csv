@@ -1,0 +1,7 @@
+"0","library(reticulate)"
+"0","library(JuliaCall)"
+"0","knitr::opts_chunk$set("
+"0","  warning = F"
+"0","  , message = F"
+"0",")"
+"0","knitr::knit_engines$set(julia = JuliaCall::eng_juliacall)"
